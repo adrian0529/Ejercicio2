@@ -79,13 +79,17 @@ header{
     font-family: 'Open Sans', sans-serif;
 }
 
-.cont_sec h2{
+.cont_sec #titulo_resena{
     text-align: center;
 }
 
 .cont_sec p{
     text-align: justify;
 }
+
+footer{
+    background-color: white;
+} 
 
 footer p{
     font-family: 'Open Sans', sans-serif;

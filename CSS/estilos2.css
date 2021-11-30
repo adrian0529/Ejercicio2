@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 
-h1{
+#titulo_cursos_gratis{
     margin-left: 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
-h3{
+#titulo_categoria{
     margin-left: 20px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -24,24 +24,29 @@ h3{
 
 .curso{
     background: rgba(255, 255, 255, .7);
-    border-radius: 8px;
+    border-radius: 50px;
     margin: 20px;
     padding: 10px;
     width: 333px;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .curso h2{
     margin: 10px;
     font-size: 20px;
+    text-align: center;
 }
 
 .curso p{
-    margin: 10px;
+    margin: 0px;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: rgb(11, 131, 57);
+    text-align: center;
 }
 
 .curso a{
