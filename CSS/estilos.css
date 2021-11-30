@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+body{                                     
+	padding: 0px;  
+	margin: 0px;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgb(1, 143, 72);
+    border-radius: 5px;
+}
+
+header{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li{
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+}
+
+.menu #item1, #item2, #item3{
+    padding-right: 100px;
+}
+
+.menu #item4, #item5, #item6{
+    padding-right: 10px;
+}
+
+.menu #item4{
+    padding-left: 100px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(13, 100, 52);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu img{
+    width: 18px;
+    height: 18px;
+}
+
+.cont_principal{
+    background: url(https://www.eluniversal.com.co/binrepository/1200x700/0c0/0d0/none/13704/SSPD/unicordoba_4692962_20210609121257.jpg);
+}
+
+.cont_sec{
+    background: rgba(255, 255, 255, .7);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cont_sec h2{
+    text-align: center;
+}
+
+.cont_sec p{
+    text-align: justify;
+}
+
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cont_sec #imagenins{
+    width: 1300px;
+    height: 340px;
+}
+
+.cont_parrafo{
+    background: rgba(255, 255, 255, .7);
+    padding: 20px;
+    border-radius: 5px;
+}
